@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <title>Latihan pembuatan formulir di HTML</title>
+    </head>
+    <body>
+        <h1>Formulir Pendaftaran Online<br> Yayasan Petir Persada</h1>
+        <form>
+            <h1>Formulir Pendaftaran</h1>
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="telepon">Nomor Telepon:</label><br>
+            <input type="tel" id="telepon" name="telepon" required><br><br>
+            
+            <label for="alamat">Alamat:</label><br>
+            <textarea id="alamat" name="alamat" rows="6" cols="50" required></textarea><br><br>
+            
+            <label for="Kota">kota</label><br>
+            <select name="kota">
+                <option>Binjai </option>
+                <option>Medan </option>
+                <option>Langkat </option>
+                <option>Deliserdang </option>
+                <option>Padangsidimpuan </option>
+                <option>Pematangsiantar </option>
+                <option>Tebingtinggi </option>
+                <option>Gunungsitoli </option>
+                <option>Padang </option>
+                <option>Jakarta </option>
+                <option>Bandung </option>
+            </select><br><br>
+
+            <label for="program">Pilih Program:</label><br>
+            <select id="program" name="program" required>
+                <option value="beasiswa">Beasiswa</option>
+                <option value="pelatihan">Pelatihan</option>
+                <option value="donasi">Donasi</option>
+            </select><br><br>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Batal">
+        </form>
+    </body>
+</html>

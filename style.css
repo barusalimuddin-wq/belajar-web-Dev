@@ -1,0 +1,65 @@
+h1{
+	color:orange;
+	font-family:sans-serif;
+	text-align:center;
+	background:red;
+	}
+
+h2{
+	color:dark;
+	font-family:roman;
+	text-align:left;
+	}
+	
+h3{
+	color:red;
+	font-family:sans-serif;
+	text-align:right;
+	}
+
+h4{
+	color:green;
+	font-family:sans-serif;
+	text-align:justify;
+	}
+h5{
+	color:blue ocean;
+	font-family:sans-serif;
+	text-align:center;
+	}
+h6{
+	color:blue;
+	font-family:sans-serif;
+	text-align:center;
+	}
+	.kotak{
+		padding:50px;
+		width:100px;
+		color:#fff;
+		margin:10px;
+		background:red;
+		text-align:center;
+	}
+	
+	#kotak{
+		width:400px;
+		color:#fff;
+		background:blue;
+		padding:50px;
+		text-align:center;
+	}
+	
+ul{
+	color:blue;
+	font-family:sans-serif;
+}
+
+ol{
+	color:red;
+	font-family:sans-serif;
+}
+
+body{
+	background:url("Latihan Markup/image/kucing.jpeg");
+	color:white
+}
